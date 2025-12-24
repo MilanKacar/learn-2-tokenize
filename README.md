@@ -36,20 +36,20 @@ This is a monorepo with two main components:
 - **Framework**: Axum web server
 - **Algorithm**: Naive BPE implementation from scratch (no external tokenizer libraries)
 - **Features**:
-  - RESTful API endpoint for text analysis
-  - Step-by-step merge history tracking
-  - Vocabulary building with configurable size
+  - RESTful API endpoint for text analysis
+  - Step-by-step merge history tracking
+  - Vocabulary building with configurable size
 
 ### Frontend (`/client`) - React + TypeScript
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Features**:
-  - Interactive token visualization
-  - Step-by-step merge replay
-  - Vocabulary table with highlighting
-  - Statistics dashboard
-  - Tutorial/onboarding system
+  - Interactive token visualization
+  - Step-by-step merge replay
+  - Vocabulary table with highlighting
+  - Statistics dashboard
+  - Tutorial/onboarding system
 
 ## 🚀 Getting Started
 
@@ -62,40 +62,40 @@ This is a monorepo with two main components:
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/tokenizer-playground.git
-   cd tokenizer-playground
-   ```
+   ```bash
+   git clone https: https://github.com/MilanKacar/learn-2-tokenize.git
+   cd learn-2-tokenize
+   ```
 
 2. **Start the Backend Server**
-   ```bash
-   cd server
-   cargo run
-   ```
-   The server will start on `http://127.0.0.1:3000`
+   ```bash
+   cd server
+   cargo run
+   ```
+   The server will start on `http://127.0.0.1:3000`
 
 3. **Start the Frontend Client** (in a new terminal)
-   ```bash
-   cd client
-   npm install
-   npm run dev
-   ```
-   The client will start on `http://localhost:5173`
+   ```bash
+   cd client
+   npm install
+   npm run dev
+   ```
+   The client will start on `http://localhost:5173`
 
 4. **Open your browser**
-   Navigate to `http://localhost:5173` and start exploring!
+   Navigate to `http://localhost:5173` and start exploring!
 
 ## 📖 How to Use
 
 1. **Enter Text**: Type or paste any text in the input field, or use the quick examples
 2. **Set Vocabulary Size**: Adjust the vocabulary size slider (default: 50,000)
 3. **Analyze**: Click "Analyze Text" to start tokenization
-4. **Explore**: 
-   - Use Previous/Next buttons to step through merge operations
-   - Use the slider to jump to any step
-   - Hover over tokens to see details (ID, value, byte length)
-   - Toggle "Show Bytes" to see raw byte representations
-   - Check the vocabulary table to see all tokens
+4. **Explore**: 
+   - Use Previous/Next buttons to step through merge operations
+   - Use the slider to jump to any step
+   - Hover over tokens to see details (ID, value, byte length)
+   - Toggle "Show Bytes" to see raw byte representations
+   - Check the vocabulary table to see all tokens
 
 ## 🎓 Learning Resources
 
@@ -119,17 +119,17 @@ This is a monorepo with two main components:
 
 ```
 tokenizer/
-├── server/                 # Rust backend
-│   ├── src/
-│   │   ├── main.rs         # Axum server setup
-│   │   └── bpe.rs          # BPE algorithm implementation
-│   └── Cargo.toml
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── utils/         # Utility functions
-│   │   └── App.tsx         # Main app component
-│   └── package.json
+├── server/                 # Rust backend
+│   ├── src/
+│   │   ├── main.rs         # Axum server setup
+│   │   └── bpe.rs          # BPE algorithm implementation
+│   └── Cargo.toml
+├── client/                 # React frontend
+│   ├── src/
+│   │   ├── components/     # React components
+│   │   ├── utils/         # Utility functions
+│   │   └── App.tsx         # Main app component
+│   └── package.json
 └── README.md
 ```
 
@@ -181,3 +181,7 @@ For questions, suggestions, or issues, please open an issue on GitHub.
 
 **Made with ❤️ to help people understand how LLMs work**
 
+
+plase change this this is my source directory:
+ssh: git@github.com:MilanKacar/learn-2-tokenize.git
+https: https://github.com/MilanKacar/learn-2-tokenize.git
