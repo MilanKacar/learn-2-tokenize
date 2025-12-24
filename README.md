@@ -63,7 +63,7 @@ This is a monorepo with two main components:
 
 1. **Clone the repository**
    ```bash
-   git clone https: https://github.com/MilanKacar/learn-2-tokenize.git
+   git clone https: https://github.com/MilanKacar/learn-2-tokenize.git && \
    cd learn-2-tokenize
    ```
 
@@ -76,8 +76,8 @@ This is a monorepo with two main components:
 
 3. **Start the Frontend Client** (in a new terminal)
    ```bash
-   cd client
-   npm install
+   cd client && \
+   npm install && \
    npm run dev
    ```
    The client will start on `http://localhost:5173`
